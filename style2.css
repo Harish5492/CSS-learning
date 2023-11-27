@@ -1,0 +1,17 @@
+*{
+    font-family:"times new roman";
+}
+h3{
+    text-align: center;
+    text-transform: capitalize;
+}
+p{
+    text-align: left;
+    background-color: rgb(214, 207, 207);
+}
+#outer{
+    font-size: 25px;
+}
+#inner{
+    font-size : 10px;
+}

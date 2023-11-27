@@ -1,0 +1,270 @@
+/* #box{
+    background-color:blue;
+}
+
+.heading{
+    color :red;
+}
+button{
+    background-color: rgb(240, 25, 25);
+    color :azure;
+}
+p{
+    text-align: left;
+   
+}
+#underline{
+    text-decoration: underline;
+
+}
+#one{
+    font-size: 20px;
+}
+#two{
+    font-size: 40px;
+}
+#three{
+    font-size:90px
+} */
+/* div{
+    background-color: aqua;
+    text-transform: uppercase;
+    height: 100px;
+    width : 125px;
+    text-align: center;
+    border-style:solid;
+    border-width:10px;
+} */
+
+/* div{
+    background-color: aqua;
+    text-transform: uppercase;
+    height: 150px;
+    width : 155px;
+    text-align: center;
+    border-style:solid;
+    border-width:10x;
+    display: inline-block;
+} */
+/* 
+#second
+{
+    /* display:none; */
+    /* visibility:hidden; */
+/* } */ 
+/* div{
+    display:inline;
+}
+
+#first{
+    background-color:red;
+    height:150px;
+    width: 155px;
+    font-size: 50px;
+    border-style:dotted;
+    text-transform: uppercase;
+    text-align:center;
+    margin: 10px;px;
+    padding:10px;
+
+}
+
+#second{
+    background-color:rgba(255,0,0,0.5);
+    height:150px;
+    width: 155px;
+    font-size: 50px;
+    border-style:dotted;
+    text-transform: uppercase;
+    text-align:center;
+    margin: 10px;
+    padding:10px;
+
+}
+#third{
+    background-color:rgba(255,0,0,0.25);
+    height:150px;
+    width: 155px;
+    font-size: 50px;
+    border-style:dotted;
+    text-transform: uppercase;
+    text-align:center;
+    margin:25px;
+    padding:25px;
+} */
+/* #box1{
+    height:100px;
+    background-color: burlywood;
+    width: 100px;
+    display: inline-block;
+    border: solid;
+    position:absolute;
+    top:500px;
+}
+#box2{
+    height:100px;
+    background-color:green;
+    width: 100px;
+    display: inline-block;
+    border: solid;
+    position: relative;
+    top:100px;
+    left:200px;
+}
+#box3{
+    height:100px;
+    background-color:red;
+    width: 100px;
+    display: inline-block;
+    border: solid;
+    position:fixed;
+    top:400px;
+    z-index:1;
+}
+#box4{
+    height:100px;
+    background-color: pink;
+    width: 100px;
+    display: inline-block;
+    border: solid;
+    position:sticky;
+    top:10px;
+    
+} */
+/* body{
+    text-align: center;
+}
+div{
+    height:100px;
+    width: 100px;
+    border:2px solid black;
+    display:inline-block;
+    background-color:grey;
+}
+#container{
+    height:2000px;
+    width:400px;
+    border:2px solid black;
+    text-align: center;
+    display:flex;
+    flex-direction:row;
+    justify-content: center;
+    flex-wrap:wrap;
+    align-content:center;
+}
+#box1{
+   
+    background-color: aqua;
+}
+#box2{
+    background-color:pink;
+  
+}
+
+
+#box3{
+
+    background-color:darkkhaki;
+
+}
+#box4{
+    
+    background-color:indianred;
+
+}
+#box5{
+    background-color:slateblue;
+
+} */
+/* div{
+    height:100px;
+    width: 200px;
+    border:2px solid black;
+    display:inline-block;
+    background-color:grey;
+    text-align: center;
+    text-decoration:solid;
+    text-transform: capitalize;
+    padding-top: 90px;
+
+    
+}
+@media(width:600px){
+    div{
+        background-color: green;
+    }
+}
+
+@media(max-width : 300px){
+    div{ background-color: blue;;
+    }
+}
+@media(min-width:200px) and (max-width:250px)
+{
+    div{
+        background-color: red ;
+    }
+} */
+
+/* TRANSITION,TRANSFORM,ANIMATION */
+div{
+    height:100px;
+    width: 200px;
+    border:2px solid black;
+    display:inline-block;
+    background-color:grey;
+    text-align: center;
+    text-decoration:solid;
+    text-transform: capitalize;
+    padding-top: 90px;
+    /* transition-property: all;
+    transition-duration: 2s;
+    transition-timing-function:ease-in;
+    transition-delay:1ms ;  or in one single line*/
+    /* transition: all 2s ease-in 2ms; */
+
+
+    /* transform: rotate(45deg);
+    rotate:x 90 deg;
+    rotate: z 55deg;
+    rotate: y 33deg; */
+
+
+    /* animation-name : colorAnimate;
+    animation-duration:2s
+     animation-timing-function:ease-in; ;
+    animation-delay: 0s;
+    animation-iteration-count: infinite;
+    animation-direction:alternate; */
+
+    animation: colorAnimate 1s ease-in 0s infinite normal;
+
+   
+}
+
+@keyframes colorAnimate {
+    from {
+        left:0px;
+        background-color: black;
+        color:white;
+    }
+    to {
+        left:200px;
+        background-color: aliceblue;
+        colour:black;
+    }
+
+    
+}
+
+div:hover{
+    background-color: rgba(53, 52, 31, 0.285);
+    color:rgb(13, 57, 76);
+    font-size: 20px;
+    transform:translate(50px);
+    transition-duration: 3s;
+}
+
+div:active{
+    background-color:navy; 
+}
